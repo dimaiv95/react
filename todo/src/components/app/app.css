@@ -1,0 +1,9 @@
+.todo-app{
+    max-width: 400px;
+    margin: 100px auto;
+}
+
+.filter-panel{
+    width: auto;
+    margin-bottom: 10px;
+}

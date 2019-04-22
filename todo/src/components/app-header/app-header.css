@@ -1,0 +1,14 @@
+.app-head{
+    margin-bottom: 30px;
+}
+.app-head__title{
+    margin: 0;
+    font-size: 30px;
+}
+.app-head__info{
+    font-size: 16px;
+    color: #808080;
+}
+.app-head__info span{
+    font-weight: bold;
+}
