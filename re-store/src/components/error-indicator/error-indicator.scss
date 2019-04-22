@@ -1,0 +1,28 @@
+.error-indicator{
+    margin: 15px 0;
+    &__img{
+        width: 140px;
+        height: 140px;
+        margin-bottom: 10px;
+    }
+    &__text{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .error-indicator{
+        &__img{
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        &__title{
+            font-size: 1.6rem;
+        }
+        &__text{
+            font-size: 0.9rem;
+        }
+    }
+    
+}

@@ -1,0 +1,11 @@
+.shopping-cart-table{
+    margin-top: 60px;
+    &__btn + &__btn{
+        margin-left: 4px;
+    }
+    &__total{
+        margin-top: 30px;
+        font-size: 2rem;
+        text-align: right;
+    }
+}

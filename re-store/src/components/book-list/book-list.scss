@@ -1,0 +1,12 @@
+.book-list{
+    list-style-type: none;
+    padding: 0;
+    transform: translate(0, 0);
+    &__item{
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 575.98px){
+
+}
