@@ -1,0 +1,33 @@
+.person-details{
+    position: relative;
+    min-height: 200px;
+    margin-top: 30px;
+    padding: 15px;
+    background-color: rgb(56, 56, 56);
+    border-radius: 6px;
+}
+.person-details__img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+.person-details__title{
+    color: #ffffff;
+}
+.person-details__card{
+    margin-top: 30px;
+}
+.person-details__name{
+    border-color: rgb(70, 70, 70);
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+}
+.person-details__name span:last-of-type{
+    display: inline-block;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.selected{
+    display: block;
+    color: #fff;
+}

@@ -1,0 +1,24 @@
+.list{
+    position: relative;
+    min-height: 200px;
+}
+.item-list{
+    margin-top: 30px;
+}
+.item-list__name{
+    background-color: rgb(56, 56, 56);
+    color: #ffffff;
+    transition: all 0.18s ease-in-out;
+}
+.item-list__name:hover{
+    background-color: rgb(80, 80, 80);
+    cursor: pointer;
+}
+.item-list__name:first-child{
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.item-list__name:last-child{
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
